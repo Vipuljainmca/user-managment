@@ -64,13 +64,12 @@ npm install
 
 #### 3. Setup environment variables
 
-Create a `.env` file in the backend root directory and add the following:
+A .env file is already included in the backend repository. Ensure it contains the necessary configuration:
 
 ```env
 PORT=4000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
-UPLOADS_FOLDER=uploads/
 ```
 
 ### Running the Server
